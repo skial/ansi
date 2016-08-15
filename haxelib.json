@@ -1,0 +1,14 @@
+{
+  "name": "ansi",
+  "license": "MIT",
+  "classPath": "src",
+  "tags": ["uhu", "uhx", "sys", "cmd", "command", "line", "util", "help"],
+  "description": "A set of abstracts and utilities to help beautiful command line apps.",
+  "contributors": ["skial"],
+  "releasenote": "Initial Release",
+  "version": "0.0.1-alpha",
+  "url": "https://github.com/skial/ansi",
+  "dependencies": {
+    
+  }
+}
