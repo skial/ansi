@@ -17,7 +17,7 @@ using StringTools;
 @:forward abstract ANSIPair(Pair) from Pair {
 	@:commutative @:op(A+B) public static function addString(a:ANSIPair, b:String):ANSI return addANSI(a, b);
 	@:op(A+B) public static function addANSI(a:ANSIPair, b:ANSI):ANSI {
-		trace( 'ansi', a );
+		//trace( 'ansi', a );
 		return '\u001b[' + a.open + 'm' + b.replace('\u001b[' + a.close + 'm', '\u001b[' + a.open + 'm') + '\u001b[' + a.close + 'm';
 	}
 }
